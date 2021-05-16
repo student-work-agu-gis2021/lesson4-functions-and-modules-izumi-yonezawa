@@ -18,10 +18,17 @@
 # - Answering some questions about functions at the end of this problem
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
 
-# YOUR CODE HERE
-
+# YOUR CODE HER E
+def fahr_to_celsius(temp_fahrenheit):
+  """converts the input temperature from degrees Fahrenheit to degrees Celsius
+  :parameter:temp_fahrenheit
+  :return:converted_temp
+  """
+  converted_temp=(temp_fahrenheit-32)/1.8
+  return converted_temp
 # ### Problem 1 tests
-# 
+print(fahr_to_celsius(48))
+print(fahr_to_celsius(71))
 # Check that the function produces correct answers for:
 # 1. What is 48° Fahrenheit in Celsius? 
 # 2. What about 71° Fahrenheit in Celsius?
@@ -42,8 +49,8 @@
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
-#
+#1.Yes,it is.
+#2.The benefits of using function are making reusable code that can make our program more effective, easier to read.
 #
 #
 
